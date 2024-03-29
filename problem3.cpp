@@ -21,7 +21,7 @@ void insertionSort(vector<int> &v,int target){
             j=j-1;
            
         }
-        while(j>=index+1 && key<v[j] && flag){
+        while(j>=index && key<v[j] && flag){
             v[j+1]=v[j];
             j=j-1;
            
